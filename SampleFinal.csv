@@ -1,0 +1,80 @@
+Student Name,Rotation 1,Rotation 2,Rotation 3,
+Jamie Obrien,Company A,Company B,Company C
+Gilberto Ortega,Company G,Company D,Company C
+Anne Tyler,Company B,Company E,Company G
+Marshall Underwood,Company G,Company B,Company C
+Nicholas Howard,Company E,Company D,Company F
+Lindsay Little,Company B,Company A,Company C
+Belinda Russell,Company F,Company A,Company B
+Krista Henry,Company F,Company A,Company B
+Susie Weber,Company F,Company C,Company E
+Carroll Page,Company F,Company E,Company B
+Abraham Tran,Company G,Company C,Company F
+Marie Schultz,Company G,Company F,Company A
+Leslie Baker,Company A,Company C,Company B
+Marc Moran,Company D,Company E,Company B
+Phyllis Roberts,Company B,Company E,Company F
+Otis Smith,Company G,Company B,Company E
+Kim Collins,Company C,Company B,Company F
+Bridget Simpson,Company F,Company A,Company B
+Julio Rose,Company A,Company F,Company D
+Jake Sims,Company B,Company D,Company E
+Billy Maldonado,Company C,Company F,Company G
+Rose Webster,Company D,Company E,Company B
+Lynda Schwartz,Company G,Company F,Company B
+Jerald Schneider,Company D,Company B,Company A
+Yvonne Bradley,Company F,Company C,Company G
+Brandon Newman,Company B,Company A,Company F
+Wilson Sherman,Company F,Company A,Company C
+Virginia Graves,Company C,Company F,Company G
+Phillip Morris,Company B,Company F,Company A
+Marlene Wilkerson,Company D,Company E,Company G
+Doug Rios,Company C,Company F,Company G
+Mae Clark,Company D,Company C,Company A
+Daryl Castro,Company B,Company G,Company D
+Brandy Brewer,Company C,Company G,Company A
+Meredith Thomas,Company B,Company C,Company F
+Kelly Barker,Company C,Company G,Company F
+Ronnie Bennett,Company D,Company G,Company E
+Pat Allison,Company E,Company G,Company B
+Rhonda Price,Company E,Company G,Company D
+Guadalupe Clarke,Company B,Company D,Company C
+Lula Jensen,Company A,Company B,Company E
+Trevor Oliver,Company E,Company D,Company B
+Sheldon Garcia,Company A,Company B,Company D
+Amber Adkins,Company B,Company D,Company E
+Jay Edwards,Company E,Company B,Company D
+Joel Miller,Company A,Company B,Company D
+Brenda Harmon,Company B,Company A
+Dallas Mccoy,Company B
+Mack Burke,Company E,Company B
+
+
+Rotation 1
+Company A,Jamie Obrien,Leslie Baker,Julio Rose,Lula Jensen,Sheldon Garcia,Joel Miller
+Company B,Anne Tyler,Lindsay Little,Phyllis Roberts,Jake Sims,Brandon Newman,Phillip Morris,Daryl Castro,Meredith Thomas,Guadalupe Clarke,Amber Adkins,Brenda Harmon,Dallas Mccoy
+Company C,Kim Collins,Billy Maldonado,Virginia Graves,Doug Rios,Brandy Brewer,Kelly Barker
+Company D,Marc Moran,Rose Webster,Jerald Schneider,Marlene Wilkerson,Mae Clark,Ronnie Bennett
+Company E,Nicholas Howard,Pat Allison,Rhonda Price,Trevor Oliver,Jay Edwards,Mack Burke
+Company F,Belinda Russell,Krista Henry,Susie Weber,Carroll Page,Bridget Simpson,Yvonne Bradley,Wilson Sherman
+Company G,Gilberto Ortega,Marshall Underwood,Abraham Tran,Marie Schultz,Otis Smith,Lynda Schwartz
+
+
+Rotation 2
+Company A,Lindsay Little,Belinda Russell,Krista Henry,Bridget Simpson,Brandon Newman,Wilson Sherman
+Company B,Jamie Obrien,Marshall Underwood,Otis Smith,Kim Collins,Jerald Schneider,Lula Jensen,Sheldon Garcia,Jay Edwards,Joel Miller,Mack Burke
+Company C,Susie Weber,Abraham Tran,Leslie Baker,Yvonne Bradley,Mae Clark,Meredith Thomas
+Company D,Gilberto Ortega,Nicholas Howard,Jake Sims,Guadalupe Clarke,Trevor Oliver,Amber Adkins
+Company E,Anne Tyler,Carroll Page,Marc Moran,Phyllis Roberts,Rose Webster,Marlene Wilkerson
+Company F,Marie Schultz,Julio Rose,Billy Maldonado,Lynda Schwartz,Virginia Graves,Phillip Morris,Doug Rios
+Company G,Daryl Castro,Brandy Brewer,Kelly Barker,Ronnie Bennett,Pat Allison,Rhonda Price
+
+
+Rotation 3
+Company A,Marie Schultz,Jerald Schneider,Phillip Morris,Mae Clark,Brandy Brewer,Brenda Harmon
+Company B,Belinda Russell,Krista Henry,Carroll Page,Leslie Baker,Marc Moran,Bridget Simpson,Rose Webster,Lynda Schwartz,Pat Allison,Trevor Oliver
+Company C,Jamie Obrien,Gilberto Ortega,Marshall Underwood,Lindsay Little,Wilson Sherman,Guadalupe Clarke
+Company D,Julio Rose,Daryl Castro,Rhonda Price,Sheldon Garcia,Jay Edwards,Joel Miller
+Company E,Susie Weber,Otis Smith,Jake Sims,Ronnie Bennett,Lula Jensen,Amber Adkins
+Company F,Nicholas Howard,Abraham Tran,Phyllis Roberts,Kim Collins,Brandon Newman,Meredith Thomas,Kelly Barker
+Company G,Anne Tyler,Billy Maldonado,Yvonne Bradley,Virginia Graves,Marlene Wilkerson,Doug Rios
