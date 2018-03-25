@@ -5,9 +5,8 @@ public class Table {
      * Each table can occupy one company and multiple students up to a maximum load.
      */
     public String company;
-    public int maxLoad;
+    private int maxLoad;
     public ArrayList<ArrayList<String>> students;
-    public int rotations;
 
     /**
      * Constructor for table based on company name and maximum load.
@@ -22,7 +21,6 @@ public class Table {
         for (int i = 0; i < rotations; i++) {
             students.add(new ArrayList<String>());
         }
-        this.rotations = rotations;
     }
 
     /**

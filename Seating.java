@@ -15,7 +15,6 @@ public class Seating {
      */
     private ArrayList<Table> tables;
     private Map<String, Integer> companyToInt;
-    private Map<Integer, String> intToCompany;
     private ArrayList<Student> students; //can make students a static variable
     private int rotations; //figure out how to do multiple rotations
 
@@ -28,14 +27,13 @@ public class Seating {
         this.tables = new ArrayList<>();
         this.students = new ArrayList<>();
         this.companyToInt = new HashMap<>();
-        this.intToCompany = new HashMap<>();
     }
 
     /**
      * Constructs the tables based on maximum load of each company from a CSV file.
      * @param filename
      */
-    public void readTables(String filename) {
+    private void readTables(String filename) {
         try {
             // Read csv file
             BufferedReader br = new BufferedReader(new FileReader(filename));
@@ -48,7 +46,6 @@ public class Seating {
             int companyCount = 0;
             while((line = br.readLine()) != null) {
                 String[] companyDetails = line.split(",");
-                intToCompany.put(companyCount, companyDetails[0]);
                 companyToInt.put(companyDetails[0], companyCount);
                 tables.add(new Table(companyDetails[0], Integer.parseInt(companyDetails[1]), rotations));
                 companyCount++;
@@ -64,7 +61,7 @@ public class Seating {
      * Constructs the students array based on student preferences from a CSVfile.
      * @param filename
      */
-    public void readStudents(String filename) {
+    private void readStudents(String filename) {
         try {
             // Read csv file
             BufferedReader br = new BufferedReader(new FileReader(filename));
@@ -96,7 +93,7 @@ public class Seating {
      * Does seating based on the preference lists of students and what seatings are available
      * at each rotation.
      */
-    public void doSeating() {
+    private void doSeating() {
         for (int rotation = 0; rotation < rotations; rotation++) {
             for (Student student : students) {
                 boolean seated = false;
@@ -123,7 +120,7 @@ public class Seating {
      * Sample seating output: SampleFinal.csv
      */
 
-    public static Seating doEverything() {
+    private static Seating doEverything() {
         // Prompt for user input.
         Scanner reader = new Scanner(System.in);
         System.out.println("Please enter the filename of students:");
@@ -153,7 +150,7 @@ public class Seating {
      * Writes the seating arrangement as a CSV file. Seating is printed based on
      * student name and then by company name and rotation.
      */
-    public void writeToCSV(String filename) {
+    private void writeToCSV(String filename) {
         String comma = ",";
         String newLine = "\n";
         PrintWriter writer = null;

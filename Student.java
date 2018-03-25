@@ -10,7 +10,7 @@ public class Student {
      */
     public String name;
     public LinkedList<String> companies;
-    public Map<String, Integer> companyScores;
+    private Map<String, Integer> companyScores;
     public ArrayList<String> seating;
     public int satisfaction;
 
