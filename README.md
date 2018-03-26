@@ -7,7 +7,8 @@ Made by Jingwei Kang 2018.
 The student networking dinner that this program was written for features multiple
 rotations in which students are seated at a table with company representatives from a given company. 
 A student may not sit with the same company on subsequent rotations. Students submit
-preference lists, which are processed on a first-come-first-serve basis.
+preference lists, which are processed on a first-come-first-serve basis. Ideally, students are satisfied with 
+the companies they are seated with and companies are satisfied with the number of students they interact with. 
 
 ## Prerequisites
 1. Obtain a preference list from each student. Every available company should be on each preference list.
@@ -18,8 +19,12 @@ preference lists, which are processed on a first-come-first-serve basis.
 ## Usage
 Run the main method in Seating.java. The method will prompt for the input and output file names in addition to the number of rotations.
 
-A sample of seating outputs is available in SampleFinal.csv. The seating is first outputted with a new row for each student, 
-and then by rotation for each table.
+A sample of seating outputs is available in SampleFinal.csv. 
+1. The seating is first outputted with rows corresponding to student
+names and columns corresponding to the rotation. An additional column indicates the student satisfaction score, with 100% as
+the maximum score. This corresponds to a student sitting with his or her top *n* preferences in a networking dinner with *n* 
+rotations.
+2. The seating is then outputted with for each rotation with rows corresponding to company names.
 
 #### Possible Issues ####
 **Note**: The last couple of students do not have seating for later rotations.
