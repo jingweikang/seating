@@ -3,6 +3,7 @@ import java.util.*;
 
 public class Seating {
     /**
+     * @author Jingwei Kang
      * Main class for determining seating. Stores student preferences and instantiates
      * table array based on the number of rotations in event.
      *
@@ -17,6 +18,7 @@ public class Seating {
     private Map<String, Integer> companyToInt;
     private ArrayList<Student> students; //can make students a static variable
     private int rotations; //figure out how to do multiple rotations
+    private int maxSatisfaction;
 
     /**
      * Constructor for seating chart.
@@ -27,6 +29,22 @@ public class Seating {
         this.tables = new ArrayList<>();
         this.students = new ArrayList<>();
         this.companyToInt = new HashMap<>();
+        this.maxSatisfaction = 0;
+    }
+
+    /**
+     * Calculates the maximum satisfaction score based on the number of rotations. This value is
+     * determined after readTables() is run as it depends on the number of companies present.
+     * @param rotations
+     * @return
+     */
+    public int calcMaxSatisfaction(int rotations) {
+        int maxSatisfaction = 0;
+        int maxCompanies = tables.size();
+        for (int i = 0; i < rotations; i++) {
+            maxSatisfaction += maxCompanies - i;
+        }
+        return maxSatisfaction;
     }
 
     /**
@@ -55,6 +73,7 @@ public class Seating {
         catch(Exception ee) {
             ee.printStackTrace();
         }
+        this.maxSatisfaction = calcMaxSatisfaction(this.rotations);
     }
 
     /**
@@ -75,9 +94,10 @@ public class Seating {
                 String[] studentDetails = line.split(",");
                 LinkedList<String> companies = new LinkedList<>();
                 Map<String, Integer> companyScores = new HashMap<>();
+                int maxCompanies = this.tables.size();
                 for (int i = 1; i < studentDetails.length; i++) {
                     companies.add(studentDetails[i]);
-                    companyScores.put(studentDetails[i], i);
+                    companyScores.put(studentDetails[i], maxCompanies - (i - 1));
                 }
                 Student student = new Student(studentDetails[0], companies, companyScores);
                 students.add(student);
@@ -159,6 +179,8 @@ public class Seating {
             writer = new PrintWriter(filename);
             writer.write("Student Name");
             writer.write(comma);
+            writer.write("Satisfaction");
+            writer.write(comma);
             for (int i = 1; i <= rotations; i++) {
                 writer.write("Rotation" + " " + i);
                 writer.write(comma);
@@ -166,6 +188,8 @@ public class Seating {
             writer.write(newLine);
             for (Student student : students) {
                 writer.write(student.name);
+                writer.write(comma);
+                writer.write(Double.toString((double) student.satisfaction / this.maxSatisfaction * 100) + "%");
                 writer.write(comma);
                 writer.write(student.seating.toString().replace("[", "")
                         .replace(", ", comma).replace("]", newLine));
@@ -195,7 +219,7 @@ public class Seating {
     public static void main(String[] args) {
         Seating seating = doEverything();
         for (Student student : seating.students){
-            System.out.println(student.name + "|" + student.seating + "|" + student.satisfaction);
+            System.out.println(student.name + "|" + student.seating + "|" + 100 * student.satisfaction / seating.maxSatisfaction);
         }
         for (Table table : seating.tables) {
             System.out.println(table.company + "|" + table.students);

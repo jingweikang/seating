@@ -1,53 +1,53 @@
-Student Name,Rotation 1,Rotation 2,Rotation 3,
-Jamie Obrien,Company A,Company B,Company C
-Gilberto Ortega,Company G,Company D,Company C
-Anne Tyler,Company B,Company E,Company G
-Marshall Underwood,Company G,Company B,Company C
-Nicholas Howard,Company E,Company D,Company F
-Lindsay Little,Company B,Company A,Company C
-Belinda Russell,Company F,Company A,Company B
-Krista Henry,Company F,Company A,Company B
-Susie Weber,Company F,Company C,Company E
-Carroll Page,Company F,Company E,Company B
-Abraham Tran,Company G,Company C,Company F
-Marie Schultz,Company G,Company F,Company A
-Leslie Baker,Company A,Company C,Company B
-Marc Moran,Company D,Company E,Company B
-Phyllis Roberts,Company B,Company E,Company F
-Otis Smith,Company G,Company B,Company E
-Kim Collins,Company C,Company B,Company F
-Bridget Simpson,Company F,Company A,Company B
-Julio Rose,Company A,Company F,Company D
-Jake Sims,Company B,Company D,Company E
-Billy Maldonado,Company C,Company F,Company G
-Rose Webster,Company D,Company E,Company B
-Lynda Schwartz,Company G,Company F,Company B
-Jerald Schneider,Company D,Company B,Company A
-Yvonne Bradley,Company F,Company C,Company G
-Brandon Newman,Company B,Company A,Company F
-Wilson Sherman,Company F,Company A,Company C
-Virginia Graves,Company C,Company F,Company G
-Phillip Morris,Company B,Company F,Company A
-Marlene Wilkerson,Company D,Company E,Company G
-Doug Rios,Company C,Company F,Company G
-Mae Clark,Company D,Company C,Company A
-Daryl Castro,Company B,Company G,Company D
-Brandy Brewer,Company C,Company G,Company A
-Meredith Thomas,Company B,Company C,Company F
-Kelly Barker,Company C,Company G,Company F
-Ronnie Bennett,Company D,Company G,Company E
-Pat Allison,Company E,Company G,Company B
-Rhonda Price,Company E,Company G,Company D
-Guadalupe Clarke,Company B,Company D,Company C
-Lula Jensen,Company A,Company B,Company E
-Trevor Oliver,Company E,Company D,Company B
-Sheldon Garcia,Company A,Company B,Company D
-Amber Adkins,Company B,Company D,Company E
-Jay Edwards,Company E,Company B,Company D
-Joel Miller,Company A,Company B,Company D
-Brenda Harmon,Company B,Company A
-Dallas Mccoy,Company B
-Mack Burke,Company E,Company B
+Student Name,Satisfaction,Rotation 1,Rotation 2,Rotation 3,
+Jamie Obrien,100.0%,Company A,Company B,Company C
+Gilberto Ortega,100.0%,Company G,Company D,Company C
+Anne Tyler,100.0%,Company B,Company E,Company G
+Marshall Underwood,100.0%,Company G,Company B,Company C
+Nicholas Howard,100.0%,Company E,Company D,Company F
+Lindsay Little,100.0%,Company B,Company A,Company C
+Belinda Russell,100.0%,Company F,Company A,Company B
+Krista Henry,100.0%,Company F,Company A,Company B
+Susie Weber,100.0%,Company F,Company C,Company E
+Carroll Page,100.0%,Company F,Company E,Company B
+Abraham Tran,100.0%,Company G,Company C,Company F
+Marie Schultz,100.0%,Company G,Company F,Company A
+Leslie Baker,100.0%,Company A,Company C,Company B
+Marc Moran,100.0%,Company D,Company E,Company B
+Phyllis Roberts,100.0%,Company B,Company E,Company F
+Otis Smith,100.0%,Company G,Company B,Company E
+Kim Collins,100.0%,Company C,Company B,Company F
+Bridget Simpson,100.0%,Company F,Company A,Company B
+Julio Rose,100.0%,Company A,Company F,Company D
+Jake Sims,100.0%,Company B,Company D,Company E
+Billy Maldonado,100.0%,Company C,Company F,Company G
+Rose Webster,100.0%,Company D,Company E,Company B
+Lynda Schwartz,100.0%,Company G,Company F,Company B
+Jerald Schneider,100.0%,Company D,Company B,Company A
+Yvonne Bradley,100.0%,Company F,Company C,Company G
+Brandon Newman,100.0%,Company B,Company A,Company F
+Wilson Sherman,100.0%,Company F,Company A,Company C
+Virginia Graves,100.0%,Company C,Company F,Company G
+Phillip Morris,100.0%,Company B,Company F,Company A
+Marlene Wilkerson,100.0%,Company D,Company E,Company G
+Doug Rios,100.0%,Company C,Company F,Company G
+Mae Clark,94.44444444444444%,Company D,Company C,Company A
+Daryl Castro,100.0%,Company B,Company G,Company D
+Brandy Brewer,100.0%,Company C,Company G,Company A
+Meredith Thomas,94.44444444444444%,Company B,Company C,Company F
+Kelly Barker,94.44444444444444%,Company C,Company G,Company F
+Ronnie Bennett,100.0%,Company D,Company G,Company E
+Pat Allison,88.88888888888889%,Company E,Company G,Company B
+Rhonda Price,100.0%,Company E,Company G,Company D
+Guadalupe Clarke,72.22222222222221%,Company B,Company D,Company C
+Lula Jensen,77.77777777777779%,Company A,Company B,Company E
+Trevor Oliver,83.33333333333334%,Company E,Company D,Company B
+Sheldon Garcia,61.111111111111114%,Company A,Company B,Company D
+Amber Adkins,88.88888888888889%,Company B,Company D,Company E
+Jay Edwards,100.0%,Company E,Company B,Company D
+Joel Miller,55.55555555555556%,Company A,Company B,Company D
+Brenda Harmon,50.0%,Company B,Company A
+Dallas Mccoy,22.22222222222222%,Company B
+Mack Burke,38.88888888888889%,Company E,Company B
 
 
 Rotation 1

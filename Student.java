@@ -4,9 +4,10 @@ import java.util.Map;
 
 public class Student {
     /**
+     * @author Jingwei Kang
      * Students initially submit preference lists of companies they would like to sit with.
      * Seating is determined by a first-come-first-serve basis; satisfaction tracks the overall
-     * satisfaction with the seating, where a low score is more preferable.
+     * satisfaction with the seating, where a high score is more preferable.
      */
     public String name;
     public LinkedList<String> companies;

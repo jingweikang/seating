@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class Table {
     /**
+     * @author Jingwei Kang
      * Each table can occupy one company and multiple students up to a maximum load.
      */
     public String company;
